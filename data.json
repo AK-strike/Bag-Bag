@@ -1,0 +1,97 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "cat": "AQUATIC PLANT"
+        },
+        {
+            "id": 2,
+            "cat": "FLOWERING PLANTS"
+        },
+        {
+            "id": 3,
+            "cat": "INDOOR PLANTS"
+        },
+        {
+            "id": 4,
+            "cat": "OUTDOOR PLANTS"
+        },
+        {
+            "id": 5,
+            "cat": "SCCULENTS PLANTS"
+        },
+        {
+            "id": 6,
+            "cat": "PRE-POTTED PLANTS"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "prodName": "Anubias Nana Golden",
+            "desc": "Aquatic Plants oxygenate the water to provide shelter for fish and aquarium life while keeping them healthier and your tank looking better.The slender leaves are bright green with brown stems and when grown in large groups can resemble tall thick grass. Tissue culture plants are grown in vitro from a state of the art laboratory specialized in propagating aquatic plants. They provide the best option for those who want to ensure that absolutely zero unwanted pests are introduced into the aquarium. Remove tissue culture gel before planting. Simply wash the gel away or soak the plant in water and squeeze the gel off with your fingers." ,
+            "price":  980,
+            "cat": "AQUATIC PLANT",
+            "img": "assets/img/Aquatic Plant.jpg",
+            "navigate":"AquaticPlants.html"
+            
+        },
+    
+        {
+            "id": 4,
+            "prodName": "Blue Hydrangea",
+            "desc": "Hardy and long-lasting, with blooms that burst in white. Will arrive blooming.The small bush blooms in early summer, then re-blooms again late summer or early fall if planted outside. The sturdy stems ensure the flowers are help upright, and make the blooms perfect for cut flower arrangements and indoor decoration.." ,
+            "price":  980,
+            "cat": "FLOWERING PLANTS",
+            "img": "assets/img/Flowering plant.jpg",
+            "navigate":"Flowering Plants.html"
+        },
+        
+        {
+            "id": 7,
+            "prodName": "Monstera 'Split-Leaf'",
+            "desc": " Native to the tropical forests of Central and South America, these plants have glossy, heart shaped leaves which develops its unique splits in its maturity. It is a climbing, evergreen perennial vine that is perhaps most noted for its large perforated leaves on thick plant stems and its long cord-like aerial roots." ,
+            "price":  980,
+            "cat": "INDOOR PLANTS",
+            "img": "assets/img/indoor.jpeg"
+            ,
+            "navigate":"IndoorPlants.html"
+        },
+       
+        {
+            "id": 10,
+            "prodName": "Noble Fir Tree",
+            "desc": "The noble fir is a popular choice for Christmas trees. Distinct branches with open spaces, allow you to showcase ornaments while avoiding the appearance of bare spots. Noble firs show attractive, smooth, silvery-gray bark with one inch gray-green or bright blue-gray leaves. Native in western Oregon, Washington, and northwest California" ,
+            "price":  748,
+            "cat": "OUTDOOR PLANTS",
+            "img": "assets/img/outdoor.jpeg"
+            ,
+            "navigate":"OutdoorPlants.html"
+        },
+        
+        {
+            "id": 13,
+            "prodName": "Aloevera",
+            "desc": "The Aloe Vera is a stemless succulent with thick and fleshy leaves that are lined with small teeth making it a great ornamental, low maintenance indoor plant which blooms a yellow tubular flower in the summertime. Native to the Arabian Peninsula, this plant is widely used around the world as its leaves are considered to be antimicrobial and has been used to treat burns as a topical medication" ,
+            "price":  852,
+            "cat": "SCCULENTS PLANTS",
+            "img": "assets/img/Succulent plant.jfif"
+            ,
+            "navigate":"Succulents and Cacti.html"
+        },
+       
+        
+        {
+            "id": 16,
+            "prodName": "Crotons Plant",
+            "desc": " Croton is a small shrub used as a landscape plant in tropical climates. In its native habitat, croton is a branching, bushy shrub that grows up to 10 feet tall but those offered as houseplants are usually much smaller than the wild plant. The large, thick, leathery leaves are 2 to 12 inches long and quite variable." ,
+            "price":  963,
+            "cat": "PRE-POTTED PLANTS",
+            "img": "Pre-PottedPlantsDescription/Images/croton1.1.png"
+            ,
+            "navigate":"Pre-PottedPlants.html"
+        }
+    
+        
+    ]
+}

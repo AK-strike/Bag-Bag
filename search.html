@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="..j">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto mt-5">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="Search"><i
+                            class="fa-solid fa-magnifying-glass fa-beat"></i></span>
+                    <input type="text" onkeyup="search()" id="search-item" class="form-control" placeholder="Search"
+                        aria-label="Search" aria-describedby="Search">
+                </div>
+            </div>
+            <div class="col-md-8 mx-auto">
+                <div class="product-list" id="product-list">
+                    <div class="product">
+                        <div class="row bg-light  mt-2 p-2">
+
+                            <div class="col-md-2"><img src="assets/img/Aquatic Plant.jpg" alt="" class="img-fluid ">
+                            </div>
+                            <div class="col-md-6 mt-4">
+                                <h3 class="text-warning">Aquatic plant</h3>
+                                <h3 class="blockquote"><b></b></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="product">
+                        <div class="row bg-light  mt-2 p-2">
+
+                            <div class="col-md-2"><img src="assets/img/indoor.jpeg" alt="" class="img-fluid "></div>
+                            <div class="col-md-6 mt-4">
+                                <h3 class="text-warning">Indoor Plant</h3>
+                                <h3 class="blockquote"><b></b></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="product">
+                        <div class="row bg-light  mt-2 p-2">
+
+                            <div class="col-md-2"><img src="assets/img/outdoor.jpeg" alt="" class="img-fluid"></div>
+                            <div class="col-md-6 mt-4">
+                                <h3 class="text-warning">Outdoor plant</h3>
+                                <h3 class="blockquote"><b></b></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="product">
+                        <div class="row bg-light mt-2 p-2">
+
+                            <div class="col-md-2"><img src="assets/img/Succulent plant.jfif" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-6 mt-4">
+                                <h3 class="text-warning">Succulent& Cacti Plant </h3>
+                                <h3 class="blockquote"><b></b></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="product">
+                        <div class="row bg-light mt-2 p-2">
+
+                            <div class="col-md-2"><img src="assets/img/Flowering plant.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-6 mt-4">
+                                <h3 class="text-warning">Flowering Plant</h3>
+                                <h3 class="blockquote"><b></b></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="product">
+                        <div class="row bg-light mt-2 p-2">
+
+                            <div class="col-md-2"><img src="Pre-PottedPlantsDescription/Images/croton1.png" alt=""
+                                    class="img-fluid"></div>
+                            <div class="col-md-6 mt-4">
+                                <h3 class="text-warning">pre-Potted Plant</h3>
+                                <h3 class="blockquote"><b></b></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="row bg-light mt-2 p-2">
+
+                            <div class="col-md-2"><img src="AquaticPlantsDescription/Images/anubias1.1.png" alt=""
+                                    class="img-fluid"></div>
+                            <div class="col-md-6 mt-4">
+                                <h3 class="text-warning">anubias</h3>
+                                <h3 class="blockquote"><b></b></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="row bg-light mt-2 p-2">
+
+                            <div class="col-md-2"><img src="AquaticPlantsDescription/Images/crypto1.1.png" alt=""
+                                    class="img-fluid"></div>
+                            <div class="col-md-6 mt-4">
+                                <h3 class="text-warning">crypto</h3>
+                                <h3 class="blockquote"><b></b></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="row bg-light mt-2 p-2">
+
+                            <div class="col-md-2"><img src="AquaticPlantsDescription/Images/Microsorom1.2.png" alt=""
+                                    class="img-fluid"></div>
+                            <div class="col-md-6 mt-4">
+                                <h3 class="text-warning">Microsorom</h3>
+                                <h3 class="blockquote"><b></b></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="row bg-light mt-2 p-2">
+
+                            <div class="col-md-2"><img src="FloweringPlantsDescription/Images/blue1.1.png" alt=""
+                                    class="img-fluid"></div>
+                            <div class="col-md-6 mt-4">
+                                <h3 class="text-warning">blue Hydrangea</h3>
+                                <h3 class="blockquote"><b></b></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="row bg-light mt-2 p-2">
+
+                            <div class="col-md-2"><img src="FloweringPlantsDescription/Images/flower1.1.png" alt=""
+                                    class="img-fluid"></div>
+                            <div class="col-md-6 mt-4">
+                                <h3 class="text-warning">Pink Hydrangea </h3>
+                                <h3 class="blockquote"><b></b></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="row bg-light mt-2 p-2">
+
+                            <div class="col-md-2"><img src="FloweringPlantsDescription/Images/white1.1.png" alt=""
+                                    class="img-fluid"></div>
+                            <div class="col-md-6 mt-4">
+                                <h3 class="text-warning"> White Hydrangea</h3>
+                                <h3 class="blockquote"><b></b></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="row bg-light mt-2 p-2">
+
+                            <div class="col-md-2"><img src="Pre-PottedPlantsDescription/Images/croton1.3.png" alt=""
+                                    class="img-fluid"></div> 
+                            <div class="col-md-6 mt-4">
+                                <h3 class="text-warning">Pre-potted croton</h3>
+                                <h3 class="blockquote"><b></b></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="row bg-light mt-2 p-2">
+
+                            <div class="col-md-2"><img src="Pre-PottedPlantsDescription/Images/Draceanas1.3.png" alt=""
+                                    class="img-fluid"></div>
+                            <div class="col-md-6 mt-4">
+                                <h3 class="text-warning">Pre-potted Draceanas </h3>
+                                <h3 class="blockquote"><b></b></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="row bg-light mt-2 p-2">
+
+                            <div class="col-md-2"><img src="Pre-PottedPlantsDescription/Images/Fern1.3.png" alt=""
+                                    class="img-fluid"></div>
+                            <div class="col-md-6 mt-4">
+                                <h3 class="text-warning">Pre-Potted Fern</h3>
+                                <h3 class="blockquote"><b></b></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="row bg-light mt-2 p-2">
+
+                            <div class="col-md-2"><img src="IndoorPlantDescription/Images/monstera1.1.png" alt=""
+                                    class="img-fluid"></div>
+                            <div class="col-md-6 mt-4">
+                                <h3 class="text-warning">Indoor monstera</h3>
+                                <h3 class="blockquote"><b></b></h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="row bg-light mt-2 p-2">
+                            
+                            <div class="col-md-2"><img src="IndoorPlantDescription/Images/palm1.1.jpg" alt="" class="img-fluid"></div>
+                            <div class="col-md-6 mt-4">
+                                <h3 class="text-warning">Indoor palm</h3>
+                                <h3 class="blockquote"><b></b></h3>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="row bg-light mt-2 p-2">
+                                
+                                <div class="col-md-2"><img src="IndoorPlantDescription/Images/pothos1.2.jpg" alt="" class="img-fluid"></div>
+                                <div class="col-md-6 mt-4">
+                                    <h3 class="text-warning">Indoor pothos</h3>
+                                    <h3 class="blockquote"><b></b></h3>
+                                </div>
+                                </div>
+                            </div>
+                            
+                            <div class="product">
+                                <div class="row bg-light mt-2 p-2">
+                                    
+                                    <div class="col-md-2"><img src="OutdoorPlantDescription/Images/noble1.2.jpg" alt="" class="img-fluid"></div>
+                                    <div class="col-md-6 mt-4">
+                                        <h3 class="text-warning">Outdoor noble</h3>
+                                        <h3 class="blockquote"><b></b></h3>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="row bg-light mt-2 p-2">
+                                        
+                                        <div class="col-md-2"><img src="OutdoorPlantDescription/Images/san miguel1.1.jpg" alt="" class="img-fluid"></div>
+                                        <div class="col-md-6 mt-4">
+                                            <h3 class="text-warning">Outdoor san miguel</h3>
+                                            <h3 class="blockquote"><b></b></h3>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="product">
+                                        <div class="row bg-light mt-2 p-2">
+                                            
+                                            <div class="col-md-2"><img src="OutdoorPlantDescription/Images/slaughter1.2.png" alt="" class="img-fluid"></div>
+                                            <div class="col-md-6 mt-4">
+                                                <h3 class="text-warning">Outdoor slaughter</h3>
+                                                <h3 class="blockquote"><b></b></h3>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div class="product">
+                                            <div class="row bg-light mt-2 p-2">
+                                                
+                                                <div class="col-md-2"><img src="Succulents&CactiDescription/Images/aloevera1.1.png" alt="" class="img-fluid"></div>
+                                                <div class="col-md-6 mt-4">
+                                                    <h3 class="text-warning">Succulents&Cacti aloevera</h3>
+                                                    <h3 class="blockquote"><b></b></h3>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="product">
+                                                <div class="row bg-light mt-2 p-2">
+                                                    
+                                                    <div class="col-md-2"><img src="Succulents&CactiDescription/Images/ripple1.1.png" alt="" class="img-fluid"></div>
+                                                    <div class="col-md-6 mt-4">
+                                                        <h3 class="text-warning">Succulents&Cacti ripple </h3>
+                                                        <h3 class="blockquote"><b></b></h3>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product">
+                                                    <div class="row bg-light mt-2 p-2">
+                                                        
+                                                        <div class="col-md-2"><img src="Succulents&CactiDescription/Images/succulent1.1.png" alt="" class="img-fluid"></div>
+                                                        <div class="col-md-6 mt-4">
+                                                            <h3 class="text-warning">Succulents&Cacti Strings of Dolphins</h3>
+                                                            <h3 class="blockquote"><b></b></h3>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="js/app_search.js"></script>
+</body>
+
+</html>
